@@ -1,6 +1,6 @@
 
 #container {
-    width:98%;
+    width:100%;
     display: inline-block;
     text-align:center;
     font-family: Arial;
@@ -12,7 +12,7 @@
 
 #head-top nav{
     background-color:#e6e6e6;
-    border:2px solid black;
+    border:1px solid black;
     margin-top:10px;
     padding:10px;
 }
@@ -33,41 +33,70 @@
 }
 
 #left-section nav{
-    height:33%;
+    height:80%;
+    border:1px solid black;
     margin-top:10px;
-    padding-top:100%;
+}
 
+#right-section{
+    width:70%;
+    height:735px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:10px;
+    float:right;
+}
+
+#right-section header, #right-section article, #right-section footer{
+    margin-top:10px;
+    padding:10px;
+}
+
+#right-section article p, #right-section article aside{
+    margin-top:10px;
+    padding:10px;
+}
+
+#article-bot p{
+    height:125px;
+    float:left;
+    width:60%;
+}
+
+#article-bot aside{
+    height:125px;
+    float:right;
+    width:30%;
 }
 
 body {
     background-color:#808080;
     padding:10px;
-    border:2px solid black;
+    border:1px solid black;
 }
 header {
     background-color:#d9d9d9;
-    border:2px solid black;
+    border:1px solid black;
 }
 section {
     background-color:#bfbfbf;
-    border:2px solid black;
+    border:1px solid black;
 }
 article {
     background-color:#e6e6e6;
-    border:2px solid black;
+    border:1px solid black;
     margin-top:10px;
 }
 footer {
     background-color:#d9d9d9;
-    margin:10px;
     padding:10px;
-    border:2px solid black;
+    border:1px solid black;
 }
 p {
     background-color:#ffffff;
-    border:2px solid black;
+    border:1px solid black;
 }
 aside {
     background-color:#ffffff;
-    border:2px solid black;
+    border:1px solid black;
 }
