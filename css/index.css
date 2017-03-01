@@ -1,4 +1,5 @@
 
+
 #container {
     width:100%;
     display: inline-block;
@@ -26,10 +27,9 @@
 #left-section{
     width:25%;
     height:735px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin:10px;
     padding:10px;
-    float:left;"
+    float:left;
 }
 
 #left-section header, #left-section footer{

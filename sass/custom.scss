@@ -1,0 +1,57 @@
+
+$defaultPadding:10px;
+$defaultColor:#ffffff;
+$colorGray:#808080;
+$defaultHeight:735px;
+
+@mixin default-box($colorGray, $boxModel, $padding){
+  $borderColor:#404040;
+  border:1px solid $borderColor;
+  clear:both;
+  background-color:$colorGray;
+  padding:$padding;
+  display: $boxModel;
+  margin:10px 10px;
+  text-align:center;
+  font-family:Arial;
+}
+
+#left-section{
+  width:25%;
+  height:$defaultHeight;
+  float:left;
+}
+
+#right-section{
+  width:69%;
+  height:$defaultHeight;
+  float:right;
+}
+
+body{
+  @include default-box(#808080, block, 10px);
+}
+
+header {
+  @include default-box(#d9d9d9, block, 10px);
+}
+
+nav{
+  @include default-box(#e6e6e6, block, 10px);
+}
+
+section {
+  @include default-box(#bfbfbf, inline-block, 10px);
+}
+article {
+  @include default-box(#e6e6e6, block, 10px);
+}
+footer {
+  @include default-box(#d9d9d9, block, 10px);
+}
+p {
+  @include default-box(#ffffff, block, 10px);
+}
+aside {
+  @include default-box(#ffffff, block, 10px);
+}
